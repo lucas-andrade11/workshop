@@ -1,0 +1,215 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container
+{
+    
+    margin: auto;
+}
+
+.formContainer
+{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+    margin-top: 60px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+header
+{
+    color: white;
+    background-color: darkturquoise;
+    text-align: center;
+    padding: 10px;
+}
+
+.title
+{   
+    font-size: 26px;
+}
+
+h2
+{
+    font-size: 16px;
+}
+
+.mb
+{
+    margin-bottom: 15px;
+}
+
+section
+{
+    padding: 20px;
+    background-image: url('/Images/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+    height: 500px;
+}
+
+input, select
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button, select
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]
+{
+    color: white;
+    background-color: #48C5CE;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+select
+{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../Images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+.speaker
+{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture
+{
+    width: 160px;
+}
+
+.description
+{
+    color: white;
+    text-align: left;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description h2
+{   
+    padding-bottom: 20px;
+}
+
+.description p, description h2
+{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.lecture-container
+{
+    height: 300px;
+    background-color: seashell;
+}
+
+.lecture-content
+{
+    float: right;
+}
+
+.content-one
+{
+    height: 100px;
+    width: 50px;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+footer
+{
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+
+.company-name
+{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px)
+{    
+
+    .title
+    {
+        font-size: 16px;
+    }
+
+    .formContainer
+    {
+        max-width: 350px;
+        margin: auto;
+        float: none;
+        transform: translateY(15%);
+    }
+
+    .speaker
+    {
+        text-align: center;
+    }
+
+    .description h2, .description p
+    {
+       font-size: 14px;
+    }
+
+    .description h2
+    {
+       margin-top: 10px;
+    }
+
+    .description p
+    {
+        text-align: center;
+    }
+    
+    .description
+    {
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    .company-name
+    {
+        text-align: center;
+    }
+
+    footer
+    {
+        margin: 20px;
+        font-size: 13px;
+    }
+
+}
